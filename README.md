@@ -8,6 +8,22 @@
 
 Users can't access server-side code.
 
+## Core modules
+
+- `http`
+- `https`
+- `fs`
+- `path`
+- `os`
+
+## NodeJS server
+
+`process.exit()` can stop event loop, but typically won't use it.
+
+`req` and `res` are the objects that NodeJS creates for us.
+
+Frequently used data in `req` is `req.url`, `req.method`, and `req.headers`.
+
 ## Javascript
 
 `slice()` method copies an array.
