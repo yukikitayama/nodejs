@@ -24,6 +24,10 @@ Users can't access server-side code.
 
 Frequently used data in `req` is `req.url`, `req.method`, and `req.headers`.
 
+You can register code or functions which will run sometime in the future, but not necessarily right now.
+
+`fs.writeFileSync` blocks the execution of the next line of code until writing file is done. 
+
 ## Javascript
 
 `slice()` method copies an array.
