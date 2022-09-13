@@ -28,6 +28,19 @@ You can register code or functions which will run sometime in the future, but no
 
 `fs.writeFileSync` blocks the execution of the next line of code until writing file is done. 
 
+## npm
+
+`npm init`
+
+`scripts` for normal scripts, we need to add `run`. For example, `npm run start-server`.
+
+`npm install PACKAGE_NAME --save-dev`
+
+## Package
+
+- `nodemon`
+  - In `package.json` file, modify `script` to `"start": "nodemon app.js"`, and run in terminal `npm start`.
+
 ## Javascript
 
 `slice()` method copies an array.
