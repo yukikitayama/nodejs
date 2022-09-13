@@ -41,6 +41,23 @@ You can register code or functions which will run sometime in the future, but no
 - `nodemon`
   - In `package.json` file, modify `script` to `"start": "nodemon app.js"`, and run in terminal `npm start`.
 
+## Express.js
+
+A framework to implement server logic to create application by helper functions, tools and rules. Most popular and often used approach.
+
+**Middleware** is important in Express.js.
+
+`next()` allows the request to continue to the next middleware in line
+
+Express.js doesn't send a default response. At the last function, we need to use `res` to send a response like `res.send();`
+
+Alternative to Express.js
+
+- Vanilla Node.js
+- Adonis.js
+- Koa
+- Sails.js
+
 ## Javascript
 
 `slice()` method copies an array.
