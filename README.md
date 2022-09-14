@@ -40,10 +40,11 @@ You can register code or functions which will run sometime in the future, but no
 
 - `nodemon`
   - In `package.json` file, modify `script` to `"start": "nodemon app.js"`, and run in terminal `npm start`.
+- `body-parser`
 
 ## Express.js
 
-A framework to implement server logic to create application by helper functions, tools and rules. Most popular and often used approach.
+A framework to implement server logic to create application by helper functions, tools and rules. Most popular and often used approach. So parsing requests and responses will be easier.
 
 **Middleware** is important in Express.js.
 
