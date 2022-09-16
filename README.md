@@ -16,6 +16,11 @@ Users can't access server-side code.
 - `path`
 - `os`
 
+## Global variable available by Node.js
+
+- `__dirname`
+  - Absolute path to this project folder, path can be created in any operating system.
+
 ## NodeJS server
 
 `process.exit()` can stop event loop, but typically won't use it.
