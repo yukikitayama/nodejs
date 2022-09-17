@@ -20,6 +20,7 @@ Users can't access server-side code.
 
 - `__dirname`
   - Absolute path to this project folder, path can be created in any operating system.
+- `process`
 
 ## NodeJS server
 
