@@ -65,6 +65,15 @@ Alternative to Express.js
 - Koa
 - Sails.js
 
+## Templating engine
+
+Templating engines scan HTMLish template and replace placeholders with real HTML content and dynamically HTML file is created and Node/Express serves the file.
+
+Templating engines
+- EJS
+- Pug (Jade)
+- Handlebars
+
 ## Javascript
 
 `slice()` method copies an array.
