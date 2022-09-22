@@ -74,6 +74,14 @@ Templating engines
 - Pug (Jade)
 - Handlebars
 
+## Model View Controller (MVC)
+
+Model represents the data in code, working with the data by saving and fetching.
+
+View is what the users see, rendering of code in HTML, decoupled from application code.
+
+Controller is connecting models and views. In-between logics. Routes are controllers. Controllers split accross middleware functions of Express.js.
+
 ## Javascript
 
 `slice()` method copies an array.
