@@ -19,6 +19,11 @@ const productSchema = new Schema({
     type: String,
     required: true,
   },
+  userId: {
+    type: Schema.Types.ObjectId,
+    ref: "User",
+    required: true,
+  },
 });
 
 // Mongoose automatically creates a collections named with lowercase and s, e.g. products.
