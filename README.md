@@ -82,6 +82,12 @@ View is what the users see, rendering of code in HTML, decoupled from applicatio
 
 Controller is connecting models and views. In-between logics. Routes are controllers. Controllers split accross middleware functions of Express.js.
 
+## Cookie
+
+Something that our backend server send back to webapp users by response header upon the users' request. We store the information in the user's browser (on the client-side), and let the subsequent requests include the cookies.
+
+In NodeJS, `res.setHeader("Set-Cookie", "key=value");`. Then the key-value is stored in Cookies section in Application in Google Chrome developer tool of a specific URL. And the subsequent request will have this information.
+
 ## Javascript
 
 `slice()` method copies an array.
