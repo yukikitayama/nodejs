@@ -88,6 +88,16 @@ Something that our backend server send back to webapp users by response header u
 
 In NodeJS, `res.setHeader("Set-Cookie", "key=value");`. Then the key-value is stored in Cookies section in Application in Google Chrome developer tool of a specific URL. And the subsequent request will have this information.
 
+`req.get("Cookie")` is a string containing all the key-value pairs, so that we need to extract from this.
+
+## Session
+
+The information stored in backend like database. Use cookie to store ID of the session to associate a user to a session. ID is hashed and the backend can confirm it.
+
+`express-session`
+
+`connect-mongodb-session`
+
 ## Javascript
 
 `slice()` method copies an array.
