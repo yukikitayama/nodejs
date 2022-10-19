@@ -98,6 +98,10 @@ The information stored in backend like database. Use cookie to store ID of the s
 
 `connect-mongodb-session`
 
+## Authentication
+
+A user sends a login request to a server. The server creates a session and store it in database. The server sends a response and store cookie to store session ID.
+
 ## Javascript
 
 `slice()` method copies an array.
