@@ -104,6 +104,12 @@ A user sends a login request to a server. The server creates a session and store
 
 Encrypt password, `$ npm install --save bcryptjs`
 
+## Cross-Site Request Forgery (CSRF) attack
+
+User is directed to a fake site which seems to be identical to your website, and send request to your backend.
+
+`$ npm install --save csurf`
+
 ## Javascript
 
 `slice()` method copies an array.
