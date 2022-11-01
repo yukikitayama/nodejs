@@ -104,6 +104,8 @@ A user sends a login request to a server. The server creates a session and store
 
 Encrypt password, `$ npm install --save bcryptjs`
 
+`$ npm install --save connect-flash`
+
 ## Cross-Site Request Forgery (CSRF) attack
 
 User is directed to a fake site which seems to be identical to your website, and send request to your backend.
